@@ -22,7 +22,7 @@ h1 {
 }
 
 .subtitulo {
-    font-size: 19px;
+    font-size: 15px;
     font-style: italic;
     margin-bottom: 25px;
 }
@@ -33,26 +33,27 @@ h1 {
     margin-bottom: 25px;
 }
 
-.poster {
-    width: 300px;
-    border-radius: 8px;
-    margin-bottom: 25px;
+.secao  {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 22px;
-    text-align: left;
+.secao h2 {
+    font-size: 25px;
     padding-bottom: 5px;
     border-bottom: 2px solid #f39c12;
-    margin-top: 30px;
 }
 
 ul {
-    text-align: left;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
-.botao {
+.secao-botao {
+    margin-top: 35px;
+}
+
+.botao-trailer{
     display: inline-block;
     background-color: #f39c12;
     color: #000000;
@@ -65,6 +66,6 @@ ul {
     border: none;
 }
 
-.botao:hover {
+.botao-trailer:hover {
     background-color: #e67e22;
 }
